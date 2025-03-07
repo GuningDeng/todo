@@ -51,15 +51,6 @@
   import { defineComponent, ref } from "vue";
   import type { ProjectInterface } from "@/interfaces/projectInterface";
 
-  // interface project {
-  //   title: string;
-  //   person: string;
-  //   due: string;
-  //   status: string;
-  //   content: string;
-  // }
-  
-  //
   export default defineComponent({
     setup() {
       const projects = ref<ProjectInterface[]>([
@@ -89,7 +80,7 @@
         },
         {
           title: "Testen",
-          person: "Yīn Furen",
+          person: "Yin Furen",
           due: "2025-4-2",
           status: "overdue",
           content:

@@ -50,7 +50,7 @@
         },
         {
           title: "Testen",
-          person: "Yīn Furen",
+          person: "Yin Furen",
           due: "2025-4-2",
           status: "overdue",
           content:
